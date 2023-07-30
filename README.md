@@ -59,6 +59,14 @@ To use this script, you will need to have Python installed along with the librar
 ### Downloading Ticker Data
 The script downloads the data for selected ticker symbols representing our stocks from Alpaca APIs representing the closing price of each stock.
 
+### Google Search Trend Data
+For creating the Google Search Trend data, we pulled in historical data for specific phrases for each stock from the past 3 years and broke them down into 2 categories:
+
+- Profit Trends: "(Stock Name) Profit", "(Stock Ticker) Buy", & "(Stock Name) Stock up"
+- Loss Trends: "(Stock Name) Loss", "(Stock Ticker) Sell", & "(Stock Name) Stock down"
+
+For each week, we notated a "1" for the trend column when the total of the loss trends were a higher numerical value than total of the profit trends.
+
 ### Sector Analysis and Performance Statistics
 
 AMZN:
