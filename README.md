@@ -59,10 +59,6 @@ To use this script, you will need to have Python installed along with the librar
 ### Downloading Ticker Data
 The script downloads the data for selected ticker symbols representing our stocks from Alpaca APIs representing the closing price of each stock.
 
-
-
-
-
 ### Sector Analysis and Performance Statistics
 The script generates plots for several performance metrics of the ETFs:
 - ! [Closing price plotted for the period 2008-2023](Resources/PriceperShare_SectorETFs.png)
@@ -88,14 +84,35 @@ This section analyzes the seasonality in the ETF returns. It fetches daily data 
 Lastly, the script performs a seasonal decomposition analysis of the S&P 500 ETF (SPY).
 
 
-## Findings and Conclusions
+## Findings and Conclusions: 
 
-There do appear to be seasonal effects in the stock market. Over the 15 years in the dataset, this effect is most pronounced in Winter, or Q4. 
-ETFs experienced greater volatility in these Winter months, and not so much in the Spring.
+### CVNA Google Search Trend & Algo Short Position
 
-In terms of climate, the data suggest that increasing surface temperature was correlated with lower returns, while a decrease in surface temperature 
-was associated with better returns. More research needs to be done over a greater period of time to determine to what extent climate has a causal
-impact on returns.
+The Random Forest Classifier identifies "Carvana Loss" as a crucial trend related to CVNA stock. The hypothesis suggests that an increase in searches for "Carvana Loss" might indicate an impending price decrease, aligning with a potential buy opportunity in the short position strategy. To verify the correlation between "Carvana Loss" and closing price, we examine the highest closing price and search trend data from 2021.
+
+On 2021-08-10, CVNA reached its highest closing price of 370.1. Interestingly, on 2021-08-08, "Carvana Loss" was not searched at all, coinciding with an uptick in the stock's closing price. Conversely, a surge of 100 searches for "Carvana Loss" on 2021-08-29 preceded a price drop, as the stock price declined from 370.1 to 337.6 on 2021-08-30. This suggests that an increase in searches for "Carvana Loss" may indeed indicate an upcoming price decrease, offering a potential entry signal for the short position strategy to yield high profits.
+
+Following the prediction of buy and sell positions through the Logistic Regression model, we also consider the Google Search Trend alongside the signals and algorithmic cumulative returns of Carvana stock. Our strategy suggests buying when closing prices and cumulative returns are on a downturn, with the predicted_signal reading 1 during the review of the 2021 trends.
+
+For instance, on 2021-08-10, the highest cumulative returns were 2.664123, and the predicted signal was 1, signifying a buy opportunity. Subsequently, the stock was bought at the highest cumulative returns and closing price, and the CVNA shares were immediately sold, preparing for the short position strategy. As the "Carvana Loss" search trend reached a value of 100, algorithmic cumulative returns declined to 2.431327 on 2021-08-30. The corresponding predicted signal of 1 during the decline in closing price and cumulative returns prompted us to buy CVNA stock, ultimately leading to profits in the short position strategy.
+
+Additionally, in the analysis of the Dual Moving Average Crossover strategy, we evaluated closing prices, cumulative returns, buy/sell signals, and Google search trends from 2022-01-30 to 2022-02-20. This further substantiates the hypothesis that the Google Search Trend of "Carvana Loss" serves as a reliable indicator of price decrease, supporting the algorithmic short position strategy.
+
+For example, on 2022-02-03, the single short moving average intersected with the single long moving average at approximately 278, indicating a buy position, followed by an instant sell to build the algorithmic short position strategy. The closing price on that date was 146.94, with cumulative returns at 1.057731. The search trend value of "Carvana Loss" was 23 on 2022-01-30, and as it increased to 39 by 2022-02-20, the closing price declined to 126.40, and cumulative returns dropped to 0.909876 within just 17 days. This considerable drop in closing prices and cumulative returns further supports the potential for a buy signal or entry position into the market for an effective short on Carvana stock.
+
+In conclusion, the study reinforces the hypothesis that specific Google search trends, such as "Carvana Loss," can be indicative of stock price fluctuations, allowing the development of a profitable position in the algorithmic short strategy. Investors should remain vigilant, buying at lower prices, returning the stocks, and holding profits to execute the algorithmic short position strategy successfully. Based on the analysis, tracking Carvana for about a year and taking the predicted buy signal at 1 or an entry position at 2.0 on 2022-01-03 could result in a profit of 1869.0. Moreover, the Dual Moving Average Crossover analysis in 2022 could lead to a profit of 10,730.0 on 2022-05-04, a mere three months after the "Carvana Loss" trend experiences an uptick. In conclusion, Carvana’s google search trends correlate with fluctuations of stock prices which can develop into a profitable position in the algorithmic short strategy.
+
+### CVNA, AMC, AMZN Financial Ratio Analysis
+
+The annual volatility is moderate for Carvana and AMC at 0.654138 and 0.187133 and huge for Amazon at 39.130301.
+ 
+The downside volatility, or Sortino Ratio, is rather low for Carvana at 0.015189 and high at 0.989772 for AMC, but this is where that works in our favor.  
+
+Sortino ratio is negative for Amazon.  A negative Sortino ratio means that the risk free rate is higher than the stock’s return.  A negative Sortini ratio is considered terrible because it indicates that the investor could have gotten a better return with no risk by investing in a risk-free option like government bonds / treasures.
+
+Given the information depicted in the portfolio evaluation DataFrame, and given the right market conditions, it would make sense for a risk-averse investor to make a small allocation to short trading strategy with AMC’s stock.
+
+Based on the trade evaluation metrics, this trading algorithm strategy produced mixed results for Carvana and AMC with alternating profits and losses - probably looking a little better in total for Carvana.It consistently brought losses for Amazon’s stock.
 
 ## Next Steps
 - Adding different factors into our analysis - macro economic factors, inflation, interest rates, natural disasters, geopolitical climate
