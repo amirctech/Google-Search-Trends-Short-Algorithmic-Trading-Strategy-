@@ -60,7 +60,8 @@ To use this script, you will need to have Python installed along with the librar
 The script downloads the data for selected ticker symbols representing our stocks from Alpaca APIs representing the closing price of each stock.
 
 ### Sector Analysis and Performance Statistics
-Amazon:
+
+AMZN:
 - ! [Amazon Google Search Trend & Closing Prices](Resources/AmazonGoogleSearchTrendClosingPrices.png)
 - ! [Amazon Google Search Trend & Cumulative Returns](Resources/AmazonGoogleSearchTrendCumulativeReturns.png)
 - ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgoPortfolioEvaluationMetrics.png)
