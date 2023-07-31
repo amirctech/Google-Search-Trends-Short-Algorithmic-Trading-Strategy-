@@ -59,24 +59,47 @@ To use this script, you will need to have Python installed along with the librar
 ### Downloading Ticker Data
 The script downloads the data for selected ticker symbols representing our stocks from Alpaca APIs representing the closing price of each stock.
 
+### Google Search Trend Data
+For creating the Google Search Trend data, we pulled in historical data for specific phrases for each stock from the past 3 years and broke them down into 2 categories:
+
+- Profit Trends: "(Stock Name) Profit", "(Stock Ticker) Buy", & "(Stock Name) Stock up"
+- Loss Trends: "(Stock Name) Loss", "(Stock Ticker) Sell", & "(Stock Name) Stock down"
+
+For each week, we notated a "1" for the trend column when the total of the loss trends were a higher numerical value than total of the profit trends.
+
 ### Sector Analysis and Performance Statistics
-The script generates plots for several performance metrics of the ETFs:
-- ! [Closing price plotted for the period 2008-2023](Resources/PriceperShare_SectorETFs.png)
-- ! [Cumulative Returns](Resources/Sector_Cumulative_Returns.png)
-- ! [Sharpe Ratio](Resources/Sharpe_by_Sector.png)
-- ! [Riskiness (Standard Deviation of Weekly Returns)](Resources/StDev_by_Sector.png)
-- ! [Correlation of Weekly Returns](Resources/Sector_Correlations.png)
-- ! [Static Betas for Period 2008-2023](Resources/Static_Sector_Betas.png)
+
+AMZN:
+- ! [Amazon Google Search Trend & Closing Prices](Resources/AmazonGoogleSearchTrendClosingPrices.png)
+- ! [Amazon Google Search Trend & Cumulative Returns](Resources/AmazonGoogleSearchTrendCumulativeReturns.png)
+- ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgoPortfolioEvaluationMetrics.png)
+- ! [AMZN Algorithmic Trade Evaluation](Resources/AMZNAlgorithmicTradeEvaluation.png)
+- ! [Amazon VAQ Short Position Algo & Google Search Trend](Resources/AMCVAQShortPositionAlgoGoogleSearchTrend.png)
+- ! [Backtest Logistic Regression Model AMZN](Resources/BacktestLogisticRegressionModelAMZN.png)
+- ! [Random Forest Classifier AMZN](Resources/RandomForestClassifierAMZN.png)
+- ! [Random Forest Classifier Feature Importance AMZN](Resources/RandomForestClassifierFeatureImportanceAMZN.png)
+
+
+AMC:
+- ! [AMC Google Search Trend & Closing Prices](Resources/AMCGoogleSearchTrendClosingPrices.png)
+- ! [AMC Google Search Ternd & Cumulative Returns](Resources/AMCGoogleSearchTrendCumulativeReturns.png)
+- ! [AMC Algo Portfolio Evaluation Metrics](Resources/AMCAlgoPortfolioEvaluationMetrics.png)
+- ! [AMC Algorithmic Trade Evaluation](Resources/AMCAlgorithmicTradeEvaluation.png)
+- ! [AMC VAQ Short Position Algo & Google Search Trend.](Resources/AMCVAQShortPositionAlgoGoogleSearchTrend.png)
+- ! [Backtest Logistic Regression Model AMC](Resources/BacktestLogisticRegressionModelAMC.png)
+- ! [Random Forest Classifier AMC](Resources/RandomForestClassifierAMC.png.png)
+- ! [Random Forest Classifier Feature Importance AMC](Resources/RandomForestClassifierFeatureImportanceAMC.png)
+
+CVNA:
+- ! [Carvana Google Search Trend & Closing Prices](Resources/CarvanaGoogleSearchTrendClosingPrices.png)
+- ! [Carvana Google Search Trend & Cumulative Returns](Resources/CarvanaGoogleSearchTrendCumulativeReturns.png)
+- ! [CVNA Algo Portfolio Evaluation Metrics](Resources/CVNAAlgoPortfolioEvaluationMetrics.png)
+- ! [CVNA Algorithmic Trade Evaluation](Resources/CVNAAlgorithmicTradeEvaluation.png)
+- ! [Carvana VAQ Short Position Algo & Google Search Trend](Resources/CarvanaVAQShortPositionAlgoGoogleSearchTrend.png)
+- ! [Backtest Logistic Regression Model CVNA](Resources/BacktestLogisticRegressionModelCVNA.png)
 - ! [52-Week Rolling Betas from 2008-2023](Resources/Rolling_Sector_Betas.png)
-
-### Seasonality Analysis
-This section analyzes the seasonality in the ETF returns. It fetches daily data for each ticker and assigns a season based on the month of the year. It then calculates the average seasonal returns for each ETF.
-
-- ! [ETF Variance by Season](Resources/sideways_Consolidation.png)
-- ! [Seasonal Adjustments - Market Consolidation](Resources/sideways_Consolidation.png)
-- ! [Seasonal Adjustments - Bull Market](Resources/bull_market_conditions.png)
-- ! [Monthly Returns Box Plot](Resources/boxplot.png)
-- ! [Seasonality & 20MA of SPY](Resources/download.png)
+- ! [Random Forest Classifier Report CVNA](Resources/RandomForestClassifierReportCVNA.png)
+- ! [Random Forest Classifier Feature Importance CVNA](Resources/RandomForestClassifierFeatureImportanceCVNA.png)
 
 
 
