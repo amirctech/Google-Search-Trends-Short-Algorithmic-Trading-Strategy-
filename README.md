@@ -73,8 +73,8 @@ For each week, we notated a "1" for the trend column when the total of the loss 
 AMZN:
 - ! [Amazon Google Search Trend & Closing Prices](Resources/AmazonGoogleSearchTrendClosingPrices.png)
 - ! [Amazon Google Search Trend & Cumulative Returns](Resources/AmazonGoogleSearchTrendCumulativeReturns.png)
-- ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgoPortfolioEvaluationMetrics.png)
-- ! [AMZN Algorithmic Trade Evaluation](Resources/AMZNAlgorithmicTradeEvaluation.png)
+- ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgorithmicTradeEvaluation.png)
+- ! [AMZN Algorithmic Trade Evaluation](Resources/
 - ! [Amazon VAQ Short Position Algo & Google Search Trend](Resources/AMCVAQShortPositionAlgoGoogleSearchTrend.png)
 - ! [Backtest Logistic Regression Model AMZN](Resources/BacktestLogisticRegressionModelAMZN.png)
 - ! [Random Forest Classifier AMZN](Resources/RandomForestClassifierAMZN.png)
