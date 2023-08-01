@@ -138,8 +138,6 @@ Given the information depicted in the portfolio evaluation DataFrame, and given 
 Based on the trade evaluation metrics, this trading algorithm strategy produced mixed results for Carvana and AMC with alternating profits and losses - probably looking a little better in total for Carvana.It consistently brought losses for Amazon’s stock.
 
 ## Next Steps
-- Adding different factors into our analysis - macro economic factors, inflation, interest rates, natural disasters, geopolitical climate
-- Diving deeper into what extent climate change effects the performance of different industry stock prices
-- Going deeper and broader with seasonality/trends analysis - running more tests on ETF’s, etc.
-- Drawing conclusions from our data that will help us facilitate our investment strategy
-- For the climate change analysis, we want to dive deeper and  add in other variables, such as natural disasters, and explore further risk ratios to see if there are any trends.
+- More precise semantic analysis.
+- Incorporate more metrics into the model.
+- Try different machine learning models to increase our profits for our algorithmic trading model.
