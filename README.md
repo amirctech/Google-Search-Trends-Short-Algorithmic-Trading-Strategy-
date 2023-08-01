@@ -95,7 +95,7 @@ CVNA:
 - ! [Carvana Google Search Trend & Closing Prices](Resources/CarvanaGoogleSearchTrendClosingPrices.png)
 - ! [Carvana Google Search Trend & Cumulative Returns](Resources/CarvanaGoogleSearchTrendCumulativeReturns.png)
 - ! [CVNA Algo Portfolio Evaluation Metrics](Resources/CVNAAlgoPortfolioEvaluationMetrics.png)
-- ! [CVNA Algorithmic Trade Evaluation](Resources/CVNAAlgoPortfolioEvaluation.png)
+- ! [CVNA Algorithmic Trade Evaluation](Resources/CVNAAlgoPortfolioEvaluation.png) 
 - ! [Carvana VAQ Short Position Algo & Google Search Trend](Resources/CarvanaVAQShortPositionAlgoGoogleSearchTrend.png)
 - ! [Backtest Logistic Regression Model CVNA](Resources/BacktestLogisticRegressionModelCVNA.png)
 - ! [Random Forest Classifier Report CVNA](Resources/RandomForestClassifierReportCVNA.png)
