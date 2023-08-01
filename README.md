@@ -83,12 +83,12 @@ AMZN:
 
 AMC:
 - ! [AMC Google Search Trend & Closing Prices](Resources/AMCGoogleSearchTrendClosingPrices.png)
-- ! [AMC Google Search Ternd & Cumulative Returns](Resources/AMCGoogleSearchTrendCumulativeReturns.png)
+- ! [AMC Google Search Trend & Cumulative Returns](Resources/AMCGoogleSearchTrendCumulativeReturns.png)
 - ! [AMC Algo Portfolio Evaluation Metrics](Resources/AMCAlgoPortfolioEvaluationMetrics.png)
 - ! [AMC Algorithmic Trade Evaluation](Resources/AMCAlgorithmicTradeEvaluation.png)
 - ! [AMC VAQ Short Position Algo & Google Search Trend.](Resources/AMCVAQShortPositionAlgoGoogleSearchTrend.png)
 - ! [Backtest Logistic Regression Model AMC](Resources/BacktestLogisticRegressionModelAMC.png)
-- ! [Random Forest Classifier AMC](Resources/RandomForestClassifierAMC.png.png)
+- ! [Random Forest Classifier AMC](Resources/RandomForestClassifierAMC.png)
 - ! [Random Forest Classifier Feature Importance AMC](Resources/RandomForestClassifierFeatureImportanceAMC.png)
 
 CVNA:
@@ -98,7 +98,6 @@ CVNA:
 - ! [CVNA Algorithmic Trade Evaluation](Resources/CVNAAlgorithmicTradeEvaluation.png)
 - ! [Carvana VAQ Short Position Algo & Google Search Trend](Resources/CarvanaVAQShortPositionAlgoGoogleSearchTrend.png)
 - ! [Backtest Logistic Regression Model CVNA](Resources/BacktestLogisticRegressionModelCVNA.png)
-- ! [52-Week Rolling Betas from 2008-2023](Resources/Rolling_Sector_Betas.png)
 - ! [Random Forest Classifier Report CVNA](Resources/RandomForestClassifierReportCVNA.png)
 - ! [Random Forest Classifier Feature Importance CVNA](Resources/RandomForestClassifierFeatureImportanceCVNA.png)
 
