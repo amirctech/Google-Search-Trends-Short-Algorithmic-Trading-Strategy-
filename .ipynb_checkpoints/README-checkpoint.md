@@ -67,12 +67,13 @@ For creating the Google Search Trend data, we pulled in historical data for spec
 
 For each week, we notated a "1" for the trend column when the total of the loss trends were a higher numerical value than total of the profit trends.
 
+
 ### Sector Analysis and Performance Statistics
 
 AMZN:
 - ! [Amazon Google Search Trend & Closing Prices](Resources/AmazonGoogleSearchTrendClosingPrices.png)
 - ! [Amazon Google Search Trend & Cumulative Returns](Resources/AmazonGoogleSearchTrendCumulativeReturns.png)
-- ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgoPortfolioEvaluationMetrics.png)
+- ! [AMZN Algo Portfolio Evaluation Metrics](Resources/AMZNAlgorithmicTradeEvaluationMetrics.png)
 - ! [AMZN Algorithmic Trade Evaluation](Resources/AMZNAlgorithmicTradeEvaluation.png)
 - ! [Amazon VAQ Short Position Algo & Google Search Trend](Resources/AMCVAQShortPositionAlgoGoogleSearchTrend.png)
 - ! [Backtest Logistic Regression Model AMZN](Resources/BacktestLogisticRegressionModelAMZN.png)
