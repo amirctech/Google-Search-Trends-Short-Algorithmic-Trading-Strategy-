@@ -67,6 +67,7 @@ For creating the Google Search Trend data, we pulled in historical data for spec
 
 For each week, we notated a "1" for the trend column when the total of the loss trends were a higher numerical value than total of the profit trends.
 
+
 ### Sector Analysis and Performance Statistics
 
 AMZN:
